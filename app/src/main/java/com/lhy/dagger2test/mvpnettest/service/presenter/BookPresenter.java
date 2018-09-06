@@ -20,7 +20,6 @@ public class BookPresenter extends BasePresenter<BookView> {
     private DateManager mDateManager;
     private CompositeSubscription mSubscription;
     private Context mContext;
-    private BookView mView;
     private Book mBook;
     public BookPresenter(Context context){
         this.mContext=context;
